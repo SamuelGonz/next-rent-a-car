@@ -1,0 +1,22 @@
+.carousel {
+   min-height: 22rem;
+   h1 {
+      text-align: center;
+      color: $primary;
+      padding-top: 1.5rem;
+      margin-bottom: 0;
+      padding-bottom: 0;
+   }
+   img {
+      width: 50%;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+   }
+}
+
+.ant-carousel {
+   //    height: 400px;
+   overflow: hidden;
+   padding: 0;
+}

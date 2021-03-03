@@ -1,0 +1,21 @@
+.container-button .ant-form-item-control-input-content {
+   display: flex !important;
+   justify-content: center !important;
+   align-items: center;
+}
+
+.btn-form-driver,
+.btn-form-driver:focus {
+   background-color: $primary;
+   border: none;
+   color: $light;
+    margin-top: 2rem;
+   border-radius: 0.3rem;
+   width: 200px;
+   height: 40px;
+   &:hover,
+   &:active {
+      background-color: darken($primary, 10);
+      color: $light;
+   }
+}

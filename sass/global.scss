@@ -1,0 +1,11 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+@import "./index.scss";
+
+body,
+html {
+   font-size: 13px;
+   @include tablet() {
+      font-size: 16px;
+   }
+}

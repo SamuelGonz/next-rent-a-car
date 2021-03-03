@@ -1,0 +1,35 @@
+.ant-select {
+   width: 100% !important;
+}
+
+.select-office {
+   margin-right: 0.6rem;
+   margin-left: 0.6rem;
+
+   &__ofice {
+      input::placeholder {
+         color: $primary;
+      }
+   }
+
+   &__checkbox {
+      color: $grey;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+
+      &-box {
+         margin-right: 0.6rem;
+      }
+   }
+}
+
+.ant-select-selection-placeholder {
+   color: $primary;
+}
+
+// .ant-select-selector {
+// }
+
+// .ant-select-selection-search {
+//    padding: 1rem 0 !important;
+// }

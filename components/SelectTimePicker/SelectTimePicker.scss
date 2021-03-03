@@ -1,0 +1,38 @@
+.select-time {
+   display: flex;
+   justify-content: space-between;
+   margin-right: 0.6rem;
+   margin-left: 0.6rem;
+
+   flex-direction: column;
+
+   @include tablet() {
+      flex-direction: row;
+   }
+}
+
+.select-time__salida {
+   display: flex;
+   width: 100%;
+   margin-right: 0.4rem;
+   margin-bottom: 1.4rem;
+
+   &-hora {
+   }
+}
+
+.select-time__devolucion {
+   display: flex;
+   width: 100%;
+   margin-bottom: 1.4rem;
+}
+
+.ant-select-selector {
+   height: 4rem !important;
+
+   @include tablet() {
+      height: 3.2rem !important;
+   }
+   display: flex;
+   align-items: center;
+}

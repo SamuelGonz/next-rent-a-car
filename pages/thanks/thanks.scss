@@ -1,0 +1,19 @@
+.thanks {
+   margin-top: 3rem;
+
+   &__btn {
+      background-color: $primary;
+      border: none;
+      color: $light;
+
+      margin: 1.2rem 0;
+      border-radius: 0.3rem;
+      width: 200px;
+      height: 40px;
+      &:hover,
+      &:active {
+         background-color: darken($primary, 10);
+         color: $light;
+      }
+   }
+}

@@ -1,0 +1,66 @@
+.car {
+   width: 100%;
+   border-radius: 0.2rem;
+   background-color: $light;
+   margin: 1.5rem 0.5rem;
+   min-height: 220px;
+   overflow: hidden;
+   -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
+   -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
+   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
+
+   &__row-img {
+   }
+
+   &__img {
+      width: 100%;
+   }
+}
+
+.car__row-info {
+   text-align: center;
+   font-size: 1.5rem;
+   font-weight: bold;
+   border-bottom: 1px solid $grey;
+
+   @include tablet() {
+      margin-top: 2rem;
+   }
+}
+
+.car__row-actions {
+   text-align: center;
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin-top: 0.5rem;
+
+   h5 {
+      margin-bottom: 0;
+   }
+
+   small {
+      font-size: 0.7rem;
+      margin: 0;
+      font-weight: normal;
+   }
+
+   @include tablet() {
+      margin-top: 2rem;
+   }
+}
+
+.car__button {
+   background-color: $green;
+   border: none;
+   color: $light;
+   font-size: 1.2rem;
+   margin: 1.2rem 0;
+   border-radius: 0.3rem;
+   padding: 1.2rem 3rem;
+   line-height: 0;
+
+   &:hover,
+   &:active {
+      background-color: darken($green, 10);
+   }
+}

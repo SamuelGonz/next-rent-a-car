@@ -1,0 +1,49 @@
+.form-search {
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+   justify-content: flex-start;
+   padding: 2rem 0.3rem;
+
+   &__form {
+      text-align: center;
+
+      @include tablet() {
+         text-align: left;
+         margin-left: 0.6rem;
+      }
+   }
+
+   > div {
+      margin-bottom: 1.8rem;
+   }
+
+   &__time {
+      margin-bottom: 0.5rem !important;
+   }
+
+   &__btn,
+   &__btn:active,
+   &__btn:focus {
+      background-color: $green;
+      border: none;
+      color: $light;
+      font-weight: bold;
+      font-size: 1rem;
+
+      border-radius: 0.3rem;
+      width: 200px;
+      height: 40px;
+      &:hover,
+      &:active {
+         background-color: darken($green, 10);
+         color: $light;
+      }
+   }
+}
+
+.form-search__form-error {
+   margin: -1rem 0.6rem 0.3rem 0;
+   border: 1px solid red;
+   color: $primary;
+}

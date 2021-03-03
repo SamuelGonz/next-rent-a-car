@@ -1,0 +1,21 @@
+.drop-down-reserva {
+   background-color: $grey;
+   padding: 1rem 0.6rem;
+   margin-top: 0.6rem;
+   border-radius: 4px;
+
+   input {
+      margin-bottom: 0.4rem;
+   }
+}
+
+.drop-down-reserva__active-btn,
+.drop-down-reserva__active-btn:active,
+.drop-down-reserva__active-btn:hover,
+.drop-down-reserva__active-btn:focus {
+   background: transparent;
+   color: $grey;
+   border: none;
+   outline: none;
+   font-size: 1.6rem;
+}

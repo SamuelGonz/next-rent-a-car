@@ -1,0 +1,27 @@
+//Layout
+@import "../layout/Header/Header.scss";
+@import "../layout/Footer/Footer.scss";
+
+//components
+@import "../components/DatePickerPrincipal/DatePickerPrincipal.scss";
+@import "../components/SelectOffice/SelectOffice.scss";
+@import "../components/SelectTimePicker/SelectTimePicker.scss";
+@import "../components/Carousel/Carosuel.scss";
+@import "../components/Cars/Cars.scss";
+@import "../components/Car/Car.scss";
+@import "../components/Payment/Payment.scss";
+@import "../components/FormDriver/FormDriver.scss";
+@import "../components/FormSearchPrices/FormSeachPrices.scss";
+@import "../components/DetailsReserva/DetailsReserva.scss";
+@import "../components/LanguageSelector/LanguageSelector.scss";
+@import "../components/DropDownReserva/DropDownReserva.scss";
+
+//pages
+@import "../pages/index.scss";
+@import "../pages/search/search.scss";
+@import "../pages/reserva/reserva.scss";
+@import "../pages/faq/faq.scss";
+@import "../pages/terms/terms.scss";
+@import "../pages/pay/pay.scss";
+@import "../pages/thanks/thanks.scss";
+@import "../pages/my-reserva/my-reserva.scss";

@@ -1,0 +1,38 @@
+.date-picker {
+   display: flex;
+   flex-direction: column;
+   margin-right: 0.6rem;
+   margin-left: 0.6rem;
+
+   &__label {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.3);
+
+      p {
+         margin-bottom: 0;
+         margin-right: 0.3rem;
+      }
+   }
+}
+
+.ant-picker {
+   width: 100%;
+}
+
+.ant-picker-input {
+   display: block;
+}
+
+.ant-picker-panels {
+   flex-direction: column;
+
+   @include tablet() {
+      flex-direction: row;
+   }
+}
+
+.ant-picker.ant-picker-range {
+   padding: 1.1rem;
+}

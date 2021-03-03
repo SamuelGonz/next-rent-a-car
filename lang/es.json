@@ -1,0 +1,10 @@
+{
+    "home": {
+        "title": "Alquila un vehículo con los mejores precios"
+    },
+    "DatePickerPrincipal":{
+        "fechaSalida": "Fecha de salida",
+        "fechaDevolucion": "Fecha de devolución"
+    }
+    
+}
